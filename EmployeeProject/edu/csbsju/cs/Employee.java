@@ -30,9 +30,9 @@ public class Employee
       return hireDay;
    }
 
-   public void raiseSalary(double byAmount)
+   public void raiseSalary(double byPercentage)
    {
-      salary += byAmount;
+      salary = salary+(salary*byPercentage/100);
    }
 
    public String toString()
