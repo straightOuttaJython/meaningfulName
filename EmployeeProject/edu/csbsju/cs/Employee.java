@@ -36,6 +36,10 @@ public class Employee
       salary += raise;
    }
 
+   public String toString()
+   {
+      return "" + name + salary;
+   }
    private String name;
    private double salary;
    private Date hireDay;
